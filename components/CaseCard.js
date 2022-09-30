@@ -7,7 +7,7 @@ function CaseCard({ img, study, aboutStudy }) {
         <img
           src={img}
           alt="case study"
-          className=" rounded-t-lg w-256 h-196 xl:h-256 xl:w-356"
+          className=" rounded-t-lg w-196 h-173 xl:h-256 xl:w-356"
         />
       </div>
       <div>

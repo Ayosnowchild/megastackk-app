@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -9,9 +9,16 @@ function Footer() {
         </h3>
         <div className=" flex flex-col-reverse gap-4 md:flex-row xl:flex-row justify-between md:items-end xl:items-end h-36">
           <div className=" w-2/5 mb-2">
-            <button className=" bg-megaStackPrimaryBlueBase w-30 md:w-38 xl:w-40 h-10 md:h-12 xl:h-15 rounded-lg flex items-center justify-center py-5 px-5 font-semibold text-white text-base">
+            <Link href="/contact-us">
+              <a>
+                <button className=" bg-megaStackPrimaryBlueBase w-30 md:w-38 xl:w-40 h-10 md:h-12 xl:h-15 rounded-lg flex items-center justify-center py-5 px-5 font-semibold text-white text-sm">
+                  Lets Talk
+                </button>
+              </a>
+            </Link>
+            {/* <button className=" bg-megaStackPrimaryBlueBase w-30 md:w-38 xl:w-40 h-10 md:h-12 xl:h-15 rounded-lg flex items-center justify-center py-5 px-5 font-semibold text-white text-base">
               Lets Talk
-            </button>
+            </button> */}
           </div>
           <div className=" flex flex-col gap-1 md:gap-4 xl:gap-6">
             <p className=" text-xs md:text-base xl:text-lg font-light">
@@ -30,42 +37,42 @@ function Footer() {
           ©Copyright 2022, Megastack Technologies Limited
         </small>
         <div className=" flex gap-2 md:gap-4 xl:gap-6">
-          <div className=" flex justify-center items-center gap-2">
+          <div className=" flex justify-center items-center gap-1">
             <img
               src="/Negative.svg"
               alt="action"
-              className=" w-4 h-4 md:w-5 md:h-5 xl:w-6 xl:h-5"
+              className=" w-3 h-4 md:w-5 md:h-5 xl:w-6 xl:h-5"
             />
             <p className=" text-xs md:text-lg xl:text-xl font-light">
               Instagram
             </p>
           </div>
-          <div className=" flex justify-center items-center gap-2">
+          <div className=" flex justify-center items-center gap-1">
             <img
               src="/Negative (1).svg"
               alt="action"
-              className=" w-4 h-4 md:w-5 md:h-5 xl:w-6 xl:h-5"
+              className=" w-3 h-4 md:w-5 md:h-5 xl:w-6 xl:h-5"
             />
             <p className=" text-xs md:text-lg xl:text-xl font-light">
               {" "}
               LinkedIn
             </p>
           </div>
-          <div className=" flex justify-center items-center gap-2">
+          <div className=" flex justify-center items-center gap-1">
             <img
               src="/Negative (2).svg"
               alt="action"
-              className=" w-4 h-4 md:w-5 md:h-5 xl:w-6 xl:h-5"
+              className=" w-3 h-4 md:w-5 md:h-5 xl:w-6 xl:h-5"
             />
             <p className=" text-xs md:text-lg xl:text-xl font-light">
               Facebook
             </p>
           </div>
-          <div className=" flex justify-center items-center gap-2">
+          <div className=" flex justify-center items-center gap-1">
             <img
               src="/Negative (3).svg"
               alt="action"
-              className=" w-4 h-4 md:w-5 md:h-5 xl:w-6 xl:h-5"
+              className=" w-3 h-4 md:w-5 md:h-5 xl:w-6 xl:h-5"
             />
             <p className=" text-xs md:text-lg xl:text-xl font-light">Twitter</p>
           </div>

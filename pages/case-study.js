@@ -18,7 +18,7 @@ function CaseStudy() {
       <Navbar />
       <div className=" bg-[url('/glass.png')] bg-no-repeat bg-cover flex flex-col items-center w-full h-full  pt-24 gap-24 mb-8 md:gap-32 md:pt-32 xl:pt-36 xl:gap-40 px-6 md:px-22 xl:py-6 xl:px-32">
         <div className=" flex flex-col items-center justify-center text-center mb-8 w-full mt-12  md:px-22 xl:px-26 gap-8">
-          <h1 className=" flex items-center font-bold text-3xl md:text-5xl text-center tracking-wide xl:text-7xl  text-megaStackSecondary px-48">
+          <h1 className=" flex items-center font-bold text-3xl md:text-5xl text-center tracking-wide xl:text-7xl  text-megaStackSecondary xl:px-48">
             Check out some of our partner’s projects
           </h1>
           <p className=" font-light text-xl md:text-1xl xl:text-2xl  text-center md:28 xl:px-36 ">
